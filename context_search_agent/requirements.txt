@@ -1,0 +1,10 @@
+a2a
+uvicorn
+fastapi
+elasticsearch
+haystack
+spacy
+sentence-transformers
+langchain
+psycopg2-binary
+ollama
