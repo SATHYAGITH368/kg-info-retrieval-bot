@@ -1,0 +1,98 @@
+[
+    [
+        {
+            "name": "EOS-06",
+            "id": "22"
+        },
+        {
+            "name": "INSAT-3DR",
+            "id": "14"
+        },
+        {
+            "name": "INSAT-3DS",
+            "id": "24"
+        },
+        {
+            "name": "SARAL",
+            "id": "12"
+        },
+        {
+            "name": "EOS-07",
+            "id": "23"
+        },
+        {
+            "name": "INSAT-3A",
+            "id": "3"
+        },
+        {
+            "name": "INSAT-3D",
+            "id": "13"
+        },
+        {
+            "name": "KALPANA-1",
+            "id": "1"
+        },
+        {
+            "name": "MEGHATROPIQUES",
+            "id": "11"
+        },
+        {
+            "name": "OCEANSAT-2",
+            "id": "9"
+        },
+        {
+            "name": "SCATSAT-1",
+            "id": "15"
+        }
+    ],
+    [
+        {
+            "name": "OCM",
+            "id": "16"
+        },
+        {
+            "name": "SCATTEROMETER",
+            "id": "4"
+        },
+        {
+            "name": "IMAGER",
+            "id": "10"
+        },
+        {
+            "name": "SOUNDER", 
+            "id": "11"
+        },
+        {
+            "name": "ALTIMETER",
+            "id": "9"
+        },
+        {
+            "name": "MHS", 
+            "id": "15"
+        },
+        {
+            "name": "CCD", 
+            "id": "1"
+        },
+        {
+            "name": "VHRR",
+            "id": "2"
+        },
+        {
+            "name": "MADRAS",
+            "id": "5"
+        }, 
+        {
+            "name": "ROSA",
+            "id": "8"
+        }, 
+        {
+            "name": "SAPHIR", 
+            "id": "6"
+        },
+        {
+            "name": "SCARAB", 
+            "id": "7"
+        }
+    ]
+]

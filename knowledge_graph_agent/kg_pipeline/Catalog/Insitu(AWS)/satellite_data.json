@@ -1,0 +1,30 @@
+[
+    [
+        {
+            "name": "In-situ",
+            "id": "9999"
+        }
+    ],
+    [
+        {
+            "name": "AMS",
+            "id": "8"
+        },
+        {
+            "name": "AWS",
+            "id": "2"
+        },
+        {
+            "name": "AWSAGRI",
+            "id": "4"
+        },
+        {
+            "name": "AWSUPG",
+            "id": "21"
+        },
+        {
+            "name": "IMDAWS",
+            "id": "10"
+        }
+    ]
+]

@@ -1,0 +1,15 @@
+actv,enddate,frequency,id,key,latres,longres,name,startdate,state,sttid
+In-Active,2016-03-10,Hourly,160001,AGRI001,22.57,72.93,"AAU, BACA, Anand, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2015-06-23,Hourly,160002,AGRI002,22.59,72.27,"AAU, NARP, Arnej, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2014-05-09,Hourly,160003,AGRI003,22.83,74.27,"AAU, Agri. Research Stn, Dahod, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2013-08-22,Hourly,160004,AGRI004,22.82,73.67,"AAU, Maize Research Stn, Godhra, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2014-07-31,Hourly,160005,AGRI005,22.30,73.20,"AAU, Model Farm, Vadodara, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2014-03-29,Hourly,160006,AGRI006,22.80,72.57,"AAU, Main Rice Research Station, Thasara, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2014-12-31,Hourly,160007,AGRI007,23.12,72.03,"AAU, Agri. Res Stn, Viramgam, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2018-07-14,Hourly,160008,AGRI008,21.50,70.44,"JAU, Junagadh, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2017-07-16,Hourly,160009,AGRI009,22.34,70.91,"JAU, Targhadia, Rajkot, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2019-03-11,Hourly,16000A,AGRI010,22.47,70.03,"JAU, Jamnagar, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2017-03-04,Hourly,16000B,AGRI011,21.60,71.23,"JAU, Oilseed Research Stn, Amreli, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2020-03-11,Hourly,16000C,AGRI012,21.08,71.79,"JAU, Coconut Research Stn, Mahuva, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2017-05-31,Hourly,16000D,AGRI013,22.45,71.25,"JAU, Nanakandhasar, Gujarat",2010-05-16,GUJARAT,17
+In-Active,2016-06-11,Hourly,16000E,AGRI014,21.50,70.44,"JAU, Khapat, Porbandar, Gujarat",2010-05-16,GUJARAT,17

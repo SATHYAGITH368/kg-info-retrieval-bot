@@ -1,0 +1,7 @@
+actv,crnt_flg,description,enddate,frequency,id,longres,name,prefix,processlevel,satinorbit,startdate,suffix,techdoc
+In-Active,1,Aerosol optical Depth over Ocean,2016-08-12,"3,5,7",27,1km - 1km,3A-CCD-AOD,3ACCD,0,P,2009-04-29,GPSEC_AODSEC.jpg,10.19038/SAC/10/3A-CCD-AOD
+In-Active,1,10 Day composite-normalised Difference Vegetation Index,2016-08-10,"3,5,6,7,9,11 GMT",13,1km - 1km,3A-CCD-COMPOSITE-NDV,3ACCD,L3,P,2008-08-22,GPSEC_COMPOSITE_NDVSEC.jpg,10.19038/SAC/10/3A-CCD-COMPOSITE-NDV
+In-Active,1,Co-registered Level-1B data for all 3 bands of INSAT-3A/CCD sensor,2016-08-12,"3,5,6,7,9,11 GMT",28,1 km - 1 km,3A-CCD-GPS,3ACCD,L1,P,2009-04-29,"ASIA_MER_01_BDY.jpg,ASIA_MER_02_BDY.jpg,ASIA_MER_03_BDY.jpg",10.19038/SAC/10/3A-CCD-GPS
+In-Active,1,"Level 1B data for all 3 Channels- VIS, NIR, SWIR Band",2016-08-12,"3,5,7",10,Pixel - Pixel,3A-CCD-L1,3ACCD,1,P,2008-08-22,"SWIR.jpg,VIS.jpg,NIR.jpg",10.19038/SAC/10/3A-CCD-L1
+In-Active,1,"Level 1B Data Over Indian Sector for all 3 channels - VIS, NIR, SWIR",2009-07-10,"3,5,7",11,Pixel - Pixel,3A-CCD-L1-INDIAN SECTOR,3ACCD,1,P,2008-08-22,"INDIA_01_BDY.jpg,INDIA_02_BDY.jpg,INDIA_03_BDY.jpg",10.19038/SAC/10/3A-VHR-L1-INDIANSECTOR
+In-Active,1,Normalised Difference Vegetation Index,2016-08-12,"3,5,7",12,1km - 1km,3A-CCD-NDV,3ACCD,2,P,2008-08-22,NDV.jpg,10.19038/SAC/10/3A-CCD-NDV

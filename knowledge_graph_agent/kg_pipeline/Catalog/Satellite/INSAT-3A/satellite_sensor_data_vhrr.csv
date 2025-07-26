@@ -1,0 +1,11 @@
+actv,crnt_flg,description,enddate,frequency,id,longres,name,prefix,processlevel,satinorbit,startdate,suffix,techdoc
+In-Active,1,Daily (averaged over previous 24 hour) Outgoing Longwave Radiation Derived from INSAT-3A- both IR and WV channel,2011-03-10,Daily,20,Pixel - Pixel,3A-VHR-DAILYOLR,3AVHR,2,P,2009-05-27,DAILY_OLR.gif,10.19038/SAC/10/3A-VHR-DAILYOLR
+In-Active,1,Quantitative Precipitation Estimates based on GPI Algorithm derived using INSAT-3A IR Channel data,2011-03-09,Daily,21,1deg - 1deg,3A-VHR-DAILYQPE,3AVHR,2,P,2009-05-27,DAILY_QPE.gif,10.19038/SAC/10/3A-VHR-DAILYQPE
+In-Active,1,Sea Surface Temperature derived from INSAT-3A IR channel data,2011-03-10,Daily,273,0.5deg - 0.5deg,3A-VHR-DAILYSST,3AVHR,3,P,2009-11-17,DAILY_SST.gif,10.19038/SAC/10/3A-VHR-DAILYSST
+In-Active,1,Upper Tropospheric Humidity derived from INSAT-3A IR Channel data,2011-03-10,Daily,272,Pixel - Pixel,3A-VHR-DAILYUTH,3AVHR,3,P,2009-11-09,DAILY_UTH.gif,10.19038/SAC/10/3A-VHR-DAILYUTH
+In-Active,1,"For every acquisition of INSAT-3A VHRR data, currently every 3-hourly",2016-06-21,Between 1hr-3hr,14,Pixel - Pixel,3A-VHR-L1,3AVHR,L1,P,2009-05-27,"IR_BDY_OVERLAID.jpg,VIS_BDY_OVERLAID.jpg,WV_BDY_OVERLAID.jpg",10.19038/SAC/10/3A-VHR-L1
+In-Active,1,"Level-1B data(Indian Sector) for all 3 Channels- VIS, IR and WV for INSAT-3A satellite",2016-06-21,1hr-3hr,15,Pixel - Pixel,3A-VHR-L1-INDIAN SECTOR,3AVHR,L1,P,2009-05-27,"INDIA_IR_BDY.jpg,INDIA_VIS_BDY.jpg,INDIA_WV_BDY.jpg,ASIA_MER_FCC.jpg",10.19038/SAC/10/3A-VHR-L1-INDIAN SECTOR
+In-Active,1,Outgoing Longwave Radiation derived from INSAT-3A IR Channel Data,2011-03-10,3 Hourly,16,Pixel - Pixel,3A-VHR-OLR,3AVHR,2,P,2009-05-27,"OLR.gif,CONTOUR_OLR.gif",10.19038/SAC/10/3A-VHR-OLR
+In-Active,1,Quantitative Precipitative Estimates based on GPI Alogorithm derived using INSAT-3A IR Channel Data,2011-03-10,3 Hourly,17,1deg - 1deg,3A-VHR-QPE,3AVHR,2,P,2009-05-27,"QPE.gif,CONTOUR_QPE.gif",10.19038/SAC/10/3A-VHR-QPE
+In-Active,1,Sea Surface Temperature derived from INSAT-3A IR channel data,2011-03-10,3 Hourly,19,0.5deg - 0.5deg,3A-VHR-SST,3AVHR,2,P,2009-05-27,"SST.gif,CONTOUR_SST.gif,COMPOSITE_SST.gif",10.19038/SAC/10/3A-VHR-SST
+In-Active,1,Upper Tropospheric Humidity derived from INSAT-3A IR Channel data,2011-03-10,3 Hourly,18,Pixel - Pixel,3A-VHR-UTH,3AVHR,2,P,2009-05-27,"UTH.gif,CONTOUR_QPE.gif",10.19038/SAC/10/3A-VHR-UTH

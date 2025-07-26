@@ -1,0 +1,3 @@
+actv,crnt_flg,description,enddate,frequency,id,longres,name,prefix,processlevel,satinorbit,startdate,suffix,techdoc
+Active,0,Standard products from TERLS Doppler weather radar received at every 10 minutes interval,2025-07-05,10 minutes,321, - ,RCTLS_L2B_STD,RCTLS,L2B,C,2016-03-09,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",
+Active,0,"Volumetric gridded data of TERLS DWR,using DPRF mode files only,containing corrected reflectivity(DBZ) and radial velocity(VEL)",2025-07-05,10 minutes,322, - ,RCTLS_L2C_VOL,,L2C,C,2023-09-01,,

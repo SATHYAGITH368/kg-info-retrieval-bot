@@ -1,0 +1,25 @@
+actv,enddate,frequency,id,key,latres,longres,name,startdate,state,sttid
+In-Active,2016-03-30,Half Hourly,15F488,AGROMET18,13.26,93.01,"Diglipur,Portblair",2011-02-15,ANDAMAN & NICOBAR,31
+In-Active,2017-12-06,Half Hourly,15F0FF,AGROMET02,17.34,78.59,"CRIDA Farm,Hayathnagar, Hyderabad",2010-12-31,ANDHRA PRADESH,4
+In-Active,2016-02-14,Half Hourly,15F464,AGROMET06,13.62,80.23,"SDSC, SHAR, Sriharikota ",2010-12-31,ANDHRA PRADESH,4
+In-Active,2017-06-29,Half Hourly,15F47F,AGROMET15,25.98,85.67,"Rajendra Agricultural University, PUSA, Samastipur",2010-12-31,BIHAR,25
+In-Active,2017-09-19,Half Hourly,15F102,AGROMET03,22.80,72.57,"Rice Research Station, Anand Agricultural University,  Nawagam.",2010-12-31,GUJARAT,17
+In-Active,2017-08-17,Half Hourly,15F105,AGROMET04,21.50,70.44,"Junagadh Agricultural University, Junagadh",2011-04-05,GUJARAT,17
+In-Active,2016-09-16,Half Hourly,15F485,AGROMET17,23.80,69.50,"Range Office Research Centre, Dhorado, Kutch",2010-12-31,GUJARAT,17
+In-Active,2016-09-26,Half Hourly,15F0FC,AGROMET01,16.78,75.75," Regional Agricultural  Research Station, Bijapur.",2011-07-30,KARNATAKA,9
+In-Active,2016-04-30,Half Hourly,15F518,AGROMET24,11.76,76.59,IISC Bengaluru. (Gopal Pura),2012-01-31,KARNATAKA,9
+In-Active,2017-08-06,Half Hourly,15F46A,AGROMET08,22.70,77.74,"Zonal Agricultural Research Station, Powerkhed, Hoshangabad",2010-12-31,MADHYA PRADESH,23
+In-Active,2016-06-05,Half Hourly,15F470,AGROMET10,22.36,80.58,"Kanha Tiger Reserve, Mandla",2010-12-31,MADHYA PRADESH,23
+In-Active,2019-07-05,Half Hourly,15F473,AGROMET11,23.92,81.10," Bandhavgarh Tiger Reserve,Umaria, Shahdol ",2010-12-31,MADHYA PRADESH,23
+In-Active,2011-07-12,Half Hourly,15F476,AGROMET12,25.44,77.69,"Madhav National Park,Shivpuri",2011-01-06,MADHYA PRADESH,23
+In-Active,2011-01-26,Half Hourly,15F48B,AGROMET19,24.21,92.68,"ICAR Research Complex, Kolasib",2010-12-07,MIZORAM,14
+In-Active,2017-12-09,Half Hourly,15F512,AGROMET22,23.53,93.18,"KVK, Khawzawl, Mizoram",2010-12-31,MIZORAM,14
+In-Active,NA,Half Hourly,15F512-O,AGROMET22-O,23.70,93.38,"Mizoram State Remote Sensing Application Centre, Aizwal.",NA,MIZORAM,14
+In-Active,2018-03-13,Half Hourly,15F482,AGROMET16,19.72,85.19,"Chilka Development Authority,Chandraput-Khurda",2010-12-31,ORISSA,28
+In-Active,2017-12-26,Half Hourly,15F467,AGROMET07,30.59,76.26,"Naraingarh Seed Farm, Amloh, Ludhiyana",2010-12-31,PUNJAB,19
+In-Active,2016-04-20,Half Hourly,15F479,AGROMET13,27.20,77.45," DRMR, SEWAR,  Bharatpur",2010-12-31,RAJASTHAN,6
+In-Active,2017-11-04,Half Hourly,15F497,AGROMET23,26.99,71.34,"CAZRI, Chandan Farm, Jaisalmer",2011-06-29,RAJASTHAN,6
+In-Active,2015-10-30,Half Hourly,15F461,AGROMET05,8.30,77.56,"LPSC, Mahendragiri, Tirunelvelli",2010-12-31,TAMILNADU,16
+In-Active,2016-02-08,Half Hourly,15F48E,AGROMET20,25.05,82.61,"BHU Campus, Barakacha, Mirzapur  Varanasi.",2015-07-02,UTTAR PRADESH,10
+In-Active,2018-06-28,Half Hourly,15F46D,AGROMET09,30.33,78.00,"Forest Research Institute, Dehradun ",2010-12-31,UTTRAKHAND,38
+In-Active,2016-08-18,Half Hourly,15F47C,AGROMET14,23.06,88.54," Bidhan Chandra Krishi Viswa Vidyalaya, Kalyani, Nadia",2010-12-31,WEST BENGAL,7

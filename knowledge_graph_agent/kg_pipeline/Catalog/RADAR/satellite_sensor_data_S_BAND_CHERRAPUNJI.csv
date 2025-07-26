@@ -1,0 +1,2 @@
+actv,crnt_flg,description,enddate,frequency,id,longres,name,prefix,processlevel,satinorbit,startdate,suffix,techdoc
+Active,0,DWR Data for Cheerapunji,2022-11-05,10 minutes,337, - ,RSCHR_L2B_STD,RSCHR,L2B,C,2016-05-20,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",

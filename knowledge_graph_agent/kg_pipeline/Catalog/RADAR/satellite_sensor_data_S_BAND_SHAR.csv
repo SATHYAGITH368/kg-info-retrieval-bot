@@ -1,0 +1,2 @@
+actv,crnt_flg,description,enddate,frequency,id,longres,name,prefix,processlevel,satinorbit,startdate,suffix,techdoc
+Active,0,DWR Data for SHAR,2023-03-31,10 minutes,338, - ,RSSHR_L2B_STD,RSSHR,L2B,C,2018-08-30,"L2B_STD_MAXZ.gif,L2B_STD_PPIZ.gif,L2B_STD_PPIS.gif,L2B_STD_PPIV.gif,L2B_STD_SRI.gif,L2B_STD_HWV.gif",
