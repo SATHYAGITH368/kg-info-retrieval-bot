@@ -1,0 +1,8 @@
+﻿{
+  "@type": "Message",
+  "content": {
+    "@type": "TextContent",
+    "text": "Show the knowledge graph for radar domain"
+  },
+  "role": "USER"
+}
