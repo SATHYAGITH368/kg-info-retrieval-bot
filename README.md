@@ -52,3 +52,34 @@ Accepts natural language questions
 Returns precise, contextual answers
 Enables interactive exploration of satellite data
 
+
+### Tech Stack
+
+Semantra.io is built on a robust and scalable AI architecture, powered by modern tools for semantic search, vector databases, geospatial reasoning, and multi-agent coordination.
+
+#### Knowledge Graph & Reasoning
+
+Neo4j – Native graph database for representing satellite, mission, and sensor relationships
+PyKEEN – For knowledge graph embedding and link prediction
+
+
+#### Semantic & Contextual Retrieval
+
+pgvector – Vector similarity search in PostgreSQL
+Haystack – Framework for building NLP-powered search pipelines
+Hugging Face Transformers – Pretrained models for Q&A, embedding, and document understanding
+LangChain – Orchestration framework for LLM-based agent pipelines
+Gemini / Gemini Pro – Multimodal language model for natural language understanding and reasoning
+
+#### Geospatial Search
+
+ElasticSearch – Full-text and hybrid search with dense/sparse retrieval support
+GeoAgent – Custom agent using Mordecai3 and geonames for spatial entity extraction
+
+
+#### Agent Communication & UI
+
+AG-UI Protocol – Internal protocol for agent interaction and unified response generation
+Conversational UI (Chat-based) – Frontend interface for querying the system in natural language
+
+
