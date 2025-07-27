@@ -1,4 +1,4 @@
-KG-INFO-RETRIEVAL-BOT
+<img width="2163" height="56" alt="image" src="https://github.com/user-attachments/assets/459ae24c-e051-44fa-895b-d077a08fff6d" />KG-INFO-RETRIEVAL-BOT
 # AI-Based Help Bot for Information Retrieval
 - Uses a Knowledge Graph as the core data structure
 - Extracts information from both static and dynamic web portal content
@@ -81,5 +81,16 @@ GeoAgent – Custom agent using Mordecai3 and geonames for spatial entity extrac
 
 AG-UI Protocol – Internal protocol for agent interaction and unified response generation
 Conversational UI (Chat-based) – Frontend interface for querying the system in natural language
+
+## AGENT
+
+### KNOWLEDGE GRAPH DISCOVERY AGENT
+
+Acts as the consuming and query-serving layer of the system. This agent interfaces with the Conversational UI, Graph Discovery Tools, and Embedding-based Semantic Search, providing real-time access to structured graph data and knowledge graph embeddings.
+
+Skills Include : Knowledge Graph Query Execution (Direct Relationship Discovery), Knowledge Graph Embedding Discovery (Indirect / Semantic Relationships), Conversational UI Query Handling and Graph Exploration Interface Support
+
+HOW TO USE:
+
 
 
