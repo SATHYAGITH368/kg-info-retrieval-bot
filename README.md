@@ -53,7 +53,7 @@ Returns precise, contextual answers
 Enables interactive exploration of satellite data
 
 
-### Tech Stack
+## Tech Stack
 
 Semantra.io is built on a robust and scalable AI architecture, powered by modern tools for semantic search, vector databases, geospatial reasoning, and multi-agent coordination.
 
