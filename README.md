@@ -4,11 +4,11 @@ KG-INFO-RETRIEVAL-BOT
 - Extracts information from both static and dynamic web portal content
 - Provides natural language query support
 
-   - Detailed Solution & Approach
+## Detailed Solution & Approach
 
 Semantra.io is an AI-powered agentic system that transforms how users retrieve and understand complex satellite datasets and documentation from ISRO’s MOSDAC portal. By combining semantic understanding, geospatial reasoning, and knowledge graph engineering, it enables natural language access to both structured and unstructured data.
 
-  - Multi-Agent Architecture
+### Multi-Agent Architecture
   
 Semantra.io is powered by a set of intelligent, specialized agents, each focused on a key aspect of the retrieval pipeline:
 
