@@ -330,7 +330,7 @@ Once everything is set up, start the agent:
  <pre> npm install </pre>
   
 3. Run in development mode (auto-restart on changes):
-<pre> npm run dev <pre>
+<pre> npm run dev </pre>pre>
 
 4. Run in production mode:
 <pre> npm start </pre>
