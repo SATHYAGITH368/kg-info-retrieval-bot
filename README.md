@@ -156,10 +156,212 @@ password = "test"  # Change if needed
 
 driver = GraphDatabase.driver(uri, auth=(username, password))</pre>
 
+5. Ollama and Gemini setup:
+   https://ollama.com/library/llama3
+
+   https://aistudio.google.com/app/apikey
+
+
+### Context search agent
+
+The Context Search Agent allows you to perform context-aware document retrieval using multiple search strategies like abstract contextual search, BM25 search, and re-ranking.
+It consists of:
+
+agent_executor.py → Handles agent orchestration and execution(google's a2a).
+
+agent_skills.py → Contains all retrieval/search skills (skill cards).
+
+main.py → Entry point to run the agent.
+
+retrieval/ → Search and ranking implementations:
+
+abstract_contexual.py →  template for abstract class(contains all abstarct methods)
+
+contexual_search1.py → using abstracted python
+
+bm25_search.py → BM25-based retrieval (version 1) for pydantic<=2.0.
+
+bm25_search1.py → BM25-based retrieval (version 2) for pydantic>2.0(recommended) .
+
+reranking.py → Post-retrieval result re-ranking(using cross-encoder).
+
+#### Installation
+Clone the repository and install dependencies:
+git clone https://github.com/SATHYAGITH368/kg-info-retrieval-bot.git
+
+<pre> cd context-search-agent </pre>
+
+<pre> pip install -r requirements.txt </pre>
 
 
 
 
+##### Running the Agent
+Run the main entry point:
+
+python main.py
+
+##### Using Retrieval Modules
+
+1. Install Docker Desktop
+   
+Download and install Docker Desktop from:
+
+https://www.docker.com/products/docker-desktop
+
+3. Pull the pg_vector Docker Image and install psycopg2
+   
+This will download the PostgreSQL image with the pgvector extension:
+
+<pre> pip install psycopg2
+  
+<pre> docker pull ankane/pgvector </pre>
+
+3. Run the Docker Container
+Replace <container_name> and <password> with your own values:
+<pre> docker run --name context-search-db \
+  -e POSTGRES_PASSWORD=mysecretpassword \
+  -p 5432:5432 \
+  -d ankane/pgvector </pre>
+   
+Explanation:
+--name context-search-db → Name of your container
+-e POSTGRES_PASSWORD=... → Set PostgreSQL password
+-p 5432:5432 → Map local port 5432 to container port 5432
+-d → Run in detached mode
+
+5. Check if the Container is Running
+<pre> docker ps </pre>
+
+6. Connect to PostgreSQL Inside the Container
+<pre> docker exec -it context-search-db psql -U postgres </pre>
+
+7. Stop the Container
+<pre> docker stop context-search-db </pre>
+
+8. for bm_25search we have to setup elastic search:
+   
+   https://www.elastic.co/docs/deploy-manage/deploy/self-managed/install-elasticsearch-from-archive-on-linux-macos
+
+
+8. In another terminal
+   for testing purpose you can run
+   You can run the python files from retrieval module with the python extension
+   eg. python  contexual_search.py
+   
+
+
+### Geoagent
+
+#### Setup
+
+
+1. https://github.com/ahalterman/mordecai3 use this github link to setup indices
+
+2. Run the following script to append your custom indices:
+ 
+   <pre> python append_all_indices.py </pre>
+
+3. Navigate to the geoagent folder and start the agent:
+
+   <pre> cd geoagent 
+     python main.py </pre>
+
+   
+   
+4. Run the client script to test:
+
+   <pre> python client.py </pre>
+
+5. You can also use samples using POSTGIS (WILL BE UPDATED SOON)   
+   
+
+### KNOWLEDGE GRAPH AGENT
+
+
+#### SETUP
+
+1. Documentation
+Read the official PyKEEN documentation here:
+
+ https://pykeen.readthedocs.io/en/stable/
+ 
+2. Setup Docker
+Follow the same Docker setup process as described in the Context Search Agent section.
+Make sure Docker Desktop is installed and running.
+
+3. Test Knowledge Graph Embedding Models
+   
+Run the two provided Python files individually to compare ranking/accuracy:
+
+DistMult model:
+
+<pre> python kge.py <pre>
+TransR model:
+<pre> python transr_kge.py </pre>
+4. Modify Prompt Template
+Edit text_extraction.py to change the prompt template according to your requirements.
+
+6. Setup Ollama
+Install and configure Ollama by following the official instructions:
+
+   https://ollama.com/library/llama3
+7. Run the Main Script
+   
+Once everything is set up, start the agent:
+
+<pre> python main.py </pre>
+
+8.Integration with ag-ui react (WILL BE UPDATED SOON)
+
+
+
+### AG-UI
+
+#### Server
+
+1. Start the Server
+ Go to the server directory:
+
+ <pre>cd server</pre>
+ 
+2. Install dependencies:
+ <pre> npm install </pre>
+  
+3. Run in development mode (auto-restart on changes):
+<pre> npm run dev <pre>
+
+4. Run in production mode:
+<pre> npm start </pre>
+
+#### Client
+
+1.Start the React Client
+ Go to the client directory:
+<pre> cd client </pre>
+
+2. Install dependencies:
+npm install
+
+3. Start the React app in development mode:
+<pre> npm start </pre>
+
+
+
+4. Run Both Client & Server Together
+   
+<pre>npm run dev</pre>
+
+
+
+
+
+
+
+
+
+
+   
 
 
 
