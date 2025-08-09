@@ -23,6 +23,7 @@ Enables reasoning and structured querying over the space data domain
 Generates vector embeddings from the knowledge graph
 Enables semantic similarity search for vague or conceptual queries
 Powers fast and accurate information retrieval using vector-based matching
+
 #### 3.  Contextual Retrieval Agent
 
 Converts documentation into Document Structure Graphs (DSGs)
@@ -122,16 +123,16 @@ Browser → http://localhost:7474
 Bolt protocol → bolt://localhost:7687
 3. Install Python Driver
 Inside your knowledge_graph_agent environment:
-pip install neo4j
+<pre> ```bash pip install neo4j ``` </pre>
 4. Configure Connection
 In your agent_executor1.py , set your Neo4j URI, username, and password:
-from neo4j import GraphDatabase
+''' from neo4j import GraphDatabase
 
 uri = "bolt://localhost:7687"
 username = "neo4j"
 password = "test"  # Change if needed
 
-driver = GraphDatabase.driver(uri, auth=(username, password))
+driver = GraphDatabase.driver(uri, auth=(username, password))'''
 
 
 
