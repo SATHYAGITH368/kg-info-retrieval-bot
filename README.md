@@ -84,13 +84,59 @@ Conversational UI (Chat-based) – Frontend interface for querying the system in
 
 ## AGENT
 
-### KNOWLEDGE GRAPH DISCOVERY AGENT
+### Knowledge Graph Discovery Agent
+The Knowledge Graph Discovery Agent is the consuming and query-serving layer of the system.
+It connects to the Conversational UI, Graph Discovery Tools, and Embedding-based Semantic Search to provide real-time access to structured graph data and knowledge graph embeddings.
+#### Features & Skills
+Knowledge Graph Query Execution → Discover direct relationships in structured datasets.
+Knowledge Graph Embedding Discovery → Identify indirect/semantic relationships using embeddings.
+Conversational UI Query Handling → Understand and answer natural language graph queries.
+Graph Exploration Interface Support → Assist in interactive graph browsing.
 
-Acts as the consuming and query-serving layer of the system. This agent interfaces with the Conversational UI, Graph Discovery Tools, and Embedding-based Semantic Search, providing real-time access to structured graph data and knowledge graph embeddings.
 
-Skills Include : Knowledge Graph Query Execution (Direct Relationship Discovery), Knowledge Graph Embedding Discovery (Indirect / Semantic Relationships), Conversational UI Query Handling and Graph Exploration Interface Support
+#### Installation & Setup
+1. Clone the Repository
+git clone https://github.com/SATHYAGITH368/kg-info-retrieval-bot.git
+cd knowledge_graph_agent
+2. Install Dependencies
+pip install -r requirements.txt
+3. (Optional) Test Locally
+Run client.py to test the agent before integrating into the React UI:
+python client.py
 
-HOW TO USE:
+4.  use it in the frontend run:npm run dev
+
+5.  Run the Agent
+python main.py
+
+
+The Knowledge Graph Discovery Agent can store and query data using Neo4j, a high-performance graph database.
+1. Install Neo4j
+Option A: Desktop App (Recommended for testing)
+Download and install Neo4j Desktop from https://neo4j.com/download/.
+
+2. Start Neo4j
+If using Neo4j Desktop, create and start a new database.
+If using Docker, the database is available at:
+Browser → http://localhost:7474
+Bolt protocol → bolt://localhost:7687
+3. Install Python Driver
+Inside your knowledge_graph_agent environment:
+pip install neo4j
+4. Configure Connection
+In your agent_executor1.py , set your Neo4j URI, username, and password:
+from neo4j import GraphDatabase
+
+uri = "bolt://localhost:7687"
+username = "neo4j"
+password = "test"  # Change if needed
+
+driver = GraphDatabase.driver(uri, auth=(username, password))
+
+
+
+
+
 
 
 
