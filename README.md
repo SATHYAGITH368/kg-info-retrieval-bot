@@ -353,6 +353,13 @@ npm install
    
 <pre> npm run dev </pre>
 
+The refined frontend with updated components(WILL BE UPDATED SOON)
+
+
+Image :
+
+
+![kg](https://github.com/user-attachments/assets/6ceefc75-08de-422a-9c92-802a9eb5a2ea)
 
 
 
