@@ -252,9 +252,9 @@ Explanation:
    
 
 
-### Geoagent
+## Geoagent
 
-#### Setup
+### Setup
 
 
 1. https://github.com/ahalterman/mordecai3 use this github link to setup indices
@@ -277,10 +277,10 @@ Explanation:
 5. You can also use samples using POSTGIS (WILL BE UPDATED SOON)   
    
 
-### KNOWLEDGE GRAPH AGENT
+## KNOWLEDGE GRAPH EMEBEDDING AGENT
 
 
-#### SETUP
+### SETUP
 
 1. Documentation
 Read the official PyKEEN documentation here:
@@ -297,7 +297,7 @@ Run the two provided Python files individually to compare ranking/accuracy:
 
 DistMult model:
 
-<pre> python kge.py <pre>
+<pre> python kge.py </pre>
 TransR model:
 <pre> python transr_kge.py </pre>
 4. Modify Prompt Template
@@ -351,7 +351,7 @@ npm install
 
 4. Run Both Client & Server Together
    
-<pre>npm run dev</pre>
+<pre> npm run dev </pre>
 
 
 
