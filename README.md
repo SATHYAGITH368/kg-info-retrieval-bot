@@ -117,9 +117,10 @@ Run client.py to test the agent before integrating into the React UI:
 
 <pre> python client1.py </pre>
 
-7.  use it in the frontend run:npm run dev
+7.  use it in the frontend run:
+   <pre> npm run dev </pre>
 
-8.  Run the Agent
+9.  Run the Agent
 <pre> python main1.py </pre>
 
 
@@ -199,7 +200,7 @@ git clone https://github.com/SATHYAGITH368/kg-info-retrieval-bot.git
 ##### Running the Agent
 Run the main entry point:
 
-python main.py
+<pre>python main.py</pre>
 
 ##### Using Retrieval Modules
 
@@ -213,7 +214,7 @@ https://www.docker.com/products/docker-desktop
    
 This will download the PostgreSQL image with the pgvector extension:
 
-<pre> pip install psycopg2
+<pre> pip install psycopg2 </pre>
   
 <pre> docker pull ankane/pgvector </pre>
 
