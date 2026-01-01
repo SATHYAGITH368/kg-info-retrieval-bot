@@ -37,7 +37,7 @@ class Neo4jSatelliteGraph:
         for satellite, csv_list in self.satellite_csvs.items():
             for csv_path in csv_list:
                 path = Path(csv_path)
-                print(f"📄 Reading SATELLITE CSV: {path.name} (Satellite: {satellite})")
+                print(f" Reading SATELLITE CSV: {path.name} (Satellite: {satellite})")
                 df = pd.read_csv(path, na_values=["NA"])
                 for _, row in df.iterrows():
                     record = ProductRecord(
@@ -58,7 +58,7 @@ class Neo4jSatelliteGraph:
                         satellite=satellite
                     )
                     records.append(record)
-        print(f"✅ Loaded {len(records)} records from all CSVs.")
+        print(f" Loaded {len(records)} records from all CSVs.")
         return records
 
    def build_graph(self):
@@ -166,3 +166,4 @@ if __name__ == "__main__":
     graph.build_graph()
     graph.close()
     print(" Neo4j knowledge graph built successfully for SATELLITE.")
+
